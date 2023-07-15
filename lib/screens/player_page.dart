@@ -22,7 +22,12 @@ class PlayerPage extends StatelessWidget {
           elevation: 0,
           leading: Transform.translate(
             offset: const Offset(-15, 0),
-            child: const IconButtonWidget(icon: 'pull-down-arrow.png'),
+            child: IconButtonWidget(
+              icon: 'pull-down-arrow.png',
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
           ),
           title: const Text(
             "Playlist Name",

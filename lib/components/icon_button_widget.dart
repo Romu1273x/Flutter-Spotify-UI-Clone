@@ -19,7 +19,7 @@ class IconButtonWidget extends StatelessWidget {
       highlightColor: Colors.transparent,
       focusColor: Colors.transparent,
       splashColor: Colors.transparent,
-      onTap: (() {}),
+      onTap: onTap,
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: Image.asset(
