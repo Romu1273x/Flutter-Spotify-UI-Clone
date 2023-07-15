@@ -202,14 +202,14 @@ class HomePage extends StatelessWidget {
                   );
                 },
               ),
-              SectionBuilder(
-                sectionTitle: 'Made for you',
-                sectionBodyBuilder: (context) {
-                  return HomeSectionsItemsBuilder(
-                    list: kPlaylistForYou,
-                  );
-                },
-              ),
+              // SectionBuilder(
+              //   sectionTitle: 'Made for you',
+              //   sectionBodyBuilder: (context) {
+              //     return HomeSectionsItemsBuilder(
+              //       list: kPlaylistForYou,
+              //     );
+              //   },
+              // ),
             ],
           ),
         ),

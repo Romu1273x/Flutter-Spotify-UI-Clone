@@ -13,7 +13,7 @@ List<PlayListItem> kPlaylistGrid = [
   PlayListItem(
       title: 'Discover Weekly',
       img:
-          'https://i04.fotocdn.net/s120/4817cfcc54ca9dc7/gallery_m/2738200936.jpg'),
+          'https://i0.wp.com/www.noise11.com/wp/wp-content/uploads/2021/11/Adele-30.jpg?fit=875%2C875'),
   PlayListItem(
       title: 'Daily Mix 1',
       img:
